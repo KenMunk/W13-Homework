@@ -231,7 +231,7 @@ public class WxModel {
 			tempString = this.windDirectionCardinal;
 			break;
 		case "wind":
-			tempString = String.format("%s %s %s", this.windSpeed, this.windDirection, this.windDirectionCardinal);
+			tempString = String.format("%s %s", this.windSpeed, this.windDirectionCardinal);
 			break;
 		case "pressure":
 			tempString = this.pressure;
